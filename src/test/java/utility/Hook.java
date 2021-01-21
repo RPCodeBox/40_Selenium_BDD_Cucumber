@@ -21,12 +21,12 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class Hook {
 	private static WebDriver driver;
-	static String strBrowser = "Chrome";
+	static String strBrowser = "Firefox";
 
-	@Before("@newtours")
+	@Before("@AutoPractice")
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//drivers//chromedriver-windows-32bit.exe");
-		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//drivers//geckodriver-windows-64bit.exe");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//drivers//geckodriver.exe");
 		if(strBrowser.equalsIgnoreCase("CHROME")) {
 			driver= new ChromeDriver();
 		} else if (strBrowser.equalsIgnoreCase("FIREFOX")) {

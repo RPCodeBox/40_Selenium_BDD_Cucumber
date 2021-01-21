@@ -1,6 +1,6 @@
 Feature: Test new tours login 
 
-@newtours
+@AutoPractice
 Scenario Outline: Validate login valid user 
 	Given I open the new tours application 
 	When I enter valid credentials "<Username>" and "<Password>" 
@@ -8,4 +8,4 @@ Scenario Outline: Validate login valid user
 
 	Examples:
 	| Username | Password |
-	| test1 | test1	|
+	| testuser1@gmail.com | testuser1	|

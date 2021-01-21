@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		features={"src//test//java//features"},
 		glue={"stepdefinations","utility"},
 		//plugin = {"pretty", "html:target/cucumber"},
-		tags = {"@newtours"},
+		tags = {"@AutoPractice"},
 	    format = {"pretty",
 	            "html:target/cucumber-reports/cucumber-pretty",
 	            "html:target/cucumber-reports/advanced-reports",
