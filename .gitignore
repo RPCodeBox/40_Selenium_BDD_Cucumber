@@ -1,6 +1,15 @@
+
+#TestNG
 /test-output/
+ConsoleReports
+
+#Maven
 /target/
+
+#Java
 /.settings/
 .classpath
-.project
+
+#Others
 debug.log
+/drivers/
